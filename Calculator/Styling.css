@@ -1,0 +1,116 @@
+html, body, #main {
+	width: 100%;
+	height: 100%;
+}
+
+#main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(20,20,20);
+}
+
+#calculator {
+	width: 20%;
+	height: 50%;
+	background-color: rgb(200,200,200);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border: 1px solid white;
+}
+
+#displayContainer {
+	width: calc(100% - 40px);
+	height: calc(25% - 20px);
+	margin: 20px 20px 0px 20px;
+}
+
+#formula {
+	width: 100%;
+	height: 25%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 1.25em;
+	overflow-y: hidden;
+}
+
+#formula p {
+	padding-left: .25em;
+	color: rgb(40,40,40);
+}
+
+.op {
+	font-weight: bold;
+}
+
+#display {
+	width: 100%;
+	height: 75%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-weight: bold;
+	font-size: 2em;
+	overflow-x: hidden;
+}
+
+hr {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(150,150,150);
+	height: 4px;
+	border-radius: 10px;
+	width: 90%;
+	border: 0;
+}
+
+#buttonsContainer {
+	height: calc(75% - 40px);
+	width: calc(100% - 40px);
+	padding: 20px;
+	display: grid;
+	grid-template-rows: repeat(5, 20%);
+	grid-template-columns: repeat(4, 25%);
+}
+
+button {
+	outline: none;
+	border: 1px solid rgba(0,0,0,.5);
+	color: white;
+	font-size: 1.5em;
+	margin: 5px;
+}
+
+button:hover {
+	border: 1px solid black;
+	background-color: rgb(40,40,40) !important;
+	color: white !important;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#clear {
+	grid-column-end: span 2;
+	background-color: #BE2C2F;
+}
+
+#zero {
+	grid-column-end: span 2;
+}
+
+#equals {
+	grid-row-end: span 2;
+	background-color: #78BE2C;
+}
+
+.numberButton {
+	background-color: rgb(250,250,250);
+	color: rgb(10,10,10);
+}
+
+.operationButton {
+	background-color: #2CBEBB;
+}
