@@ -4,8 +4,8 @@ Some projects from the Free Code Camp curriculum (https://www.freecodecamp.org/)
 Hosted on Copepen as to avoid creating a respository for each in order to use GitHub Pages.  
 
 * **Calculator**  
-: A basic, functional calculator (HTML, CSS, JS, React)  
-: https://codepen.io/maz2/full/yGOvmO      
+A basic, functional calculator (HTML, CSS, JS, React)  
+https://codepen.io/maz2/full/yGOvmO      
 * **Random Quote Generator**  
 : Pulls quotes from an external API and displays them (HTML, CSS, JS, React, jQuery)  
 : https://codepen.io/maz2/full/QYQJgE    
